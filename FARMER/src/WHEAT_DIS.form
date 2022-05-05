@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,18,0,0,2,-118"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="WALL" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="WALL" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="WALL">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="ff" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="BACK" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="PRINT_TEXT2" min="-2" pref="25" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Component id="jScrollPane1" alignment="0" pref="650" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="PRINT_TEXT2" min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="BACK" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="488" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="BACK">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/IMEAGES/arrow-98-24.png"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BACKMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BACKMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BACKMouseExited"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="PRINT_TEXT2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/IMEAGES/printer-24.png"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="PRINT_TEXT2MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="PRINT_TEXT2MouseEntered"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="WHEAT_DI">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="&#x917;&#x935;&#x94d;&#x939;&#x93e;&#x935;&#x930;&#x940;&#x932; &#x930;&#x94b;&#x917;&#xa;&#xa;&#x917;&#x935;&#x94d;&#x939;&#x93e;&#x935;&#x930; &#x92a;&#x94d;&#x930;&#x93e;&#x92e;&#x941;&#x916;&#x94d;&#x92f;&#x93e;&#x928;&#x947; &#x924;&#x93e;&#x902;&#x92c;&#x947;&#x930;&#x93e; (&#x917;&#x947;&#x930;&#x935;&#x93e;) &#x915;&#x93e;&#x91c;&#x933;&#x940; &#x915;&#x93f;&#x902;&#x935;&#x93e; &#x915;&#x93e;&#x928;&#x940; &#x915;&#x930;&#x92a;&#x93e;, &#x92e;&#x930;, &#x92e;&#x941;&#x933;&#x915;&#x941;&#x91c;, &#x916;&#x94b;&#x921;&#x915;&#x941;&#x91c; &#x906;&#x923;&#x93f; &#x915;&#x930;&#x94d;&#x928;&#x93e;&#x932; &#xa;&#x92c;&#x902;&#x91f; &#x92f;&#x93e; &#x930;&#x94b;&#x917;&#x93e;&#x91a;&#x93e; &#x92a;&#x94d;&#x930;&#x93e;&#x926;&#x941;&#x930;&#x94d;&#x92d;&#x93e;&#x935; &#x939;&#x94b;&#x924; &#x905;&#x938;&#x924;&#x94b;.&#xa;&#x917;&#x935;&#x94d;&#x939;&#x93e;&#x935;&#x930; &#x92f;&#x947;&#x923;&#x93e;&#x930;&#x93e; &#x92a;&#x94d;&#x930;&#x92e;&#x941;&#x916; &#x906;&#x923;&#x93f; &#x928;&#x941;&#x915;&#x938;&#x93e;&#x928; &#x915;&#x93e;&#x930;&#x915; &#x930;&#x94b;&#x917; &#x92e;&#x94d;&#x939;&#x923;&#x91c;&#x947; &#x924;&#x93e;&#x902;&#x92c;&#x947;&#x930;&#x93e;. &#x916;&#x94b;&#x921;&#x93e;&#x935;&#x930;&#x91a;&#x93e; &#x915;&#x93e;&#x933;&#x93e; &#x924;&#x93e;&#x902;&#x92c;&#x947;&#x930;&#x93e;, &#xa;&#x92a;&#x93e;&#x928;&#x93e;&#x935;&#x930;&#x91a;&#x93e; &#x928;&#x93e;&#x930;&#x902;&#x917;&#x940; &#x924;&#x93e;&#x902;&#x92c;&#x947;&#x930;&#x93e;, &#x92a;&#x93f;&#x935;&#x933;&#x93e; &#x924;&#x93e;&#x902;&#x92c;&#x947;&#x930;&#x93e; &#x92f;&#x93e; &#x924;&#x93e;&#x902;&#x92c;&#x947;&#x930;&#x94d;&#x92f;&#x93e;&#x91a;&#x93e; &#x92a;&#x94d;&#x930;&#x938;&#x93e;&#x930; &#x939;&#x94b;&#x924; &#x905;&#x938;&#x924;&#x94b;.&#xa;&#x916;&#x94b;&#x921;&#x93e;&#x935;&#x930;&#x91a;&#x93e; &#x915;&#x93e;&#x933;&#x93e; &#x924;&#x93e;&#x902;&#x92c;&#x947;&#x930;&#x93e; &#x939;&#x93e; &#x92c;&#x941;&#x930;&#x936;&#x940;&#x91c;&#x928;&#x94d;&#x92f; &#x930;&#x94b;&#x917; &#x905;&#x938;&#x942;&#x928; &#x935;&#x915;&#x94d;&#x938;&#x940;&#x928;&#x93f;&#x92f;&#x93e; &#x917;&#x94d;&#x930;&#x93e;&#x92e;&#x93f;&#x928;&#x93f;&#x938;, &#x91f;&#x94d;&#x930;&#x93f;&#x91f;&#x940;&#x938;&#x940; &#x92f;&#x93e; &#x92c;&#x941;&#x930;&#x936;&#x940;&#x92e;&#x941;&#x933;&#x947; &#x939;&#x94b;&#x924;&#x94b;. &#xa;&#x930;&#x94b;&#x917;&#x93e;&#x91a;&#x93e; &#x92a;&#x94d;&#x930;&#x93e;&#x926;&#x941;&#x930;&#x94d;&#x92d;&#x93e;&#x935; &#x91d;&#x93e;&#x932;&#x94d;&#x92f;&#x93e;&#x928;&#x902;&#x924;&#x930; &#x916;&#x94b;&#x921;&#x93e;&#x935;&#x930; &#x92b;&#x94b;&#x95c; &#x92f;&#x947;&#x924;&#x93e;&#x924;.&#x939;&#x947;&#x91a; &#x92b;&#x94b;&#x95c; &#x92a;&#x941;&#x922;&#x947; &#x915;&#x93e;&#x933;&#x938;&#x930; &#x939;&#x94b;&#x924;&#x93e;&#x924;.&#x938;&#x92e;&#x94d;&#x92a;&#x942;&#x930;&#x94d;&#x923; &#x916;&#x94b;&#x921; &#x915;&#x93e;&#x933;&#x938;&#x930; &#x939;&#x94b;&#x924;&#x947;.&#xa;&#x928;&#x93f;&#x932;&#x917;&#x93f;&#x930;&#x940; &#x92a;&#x930;&#x94d;&#x935;&#x924; &#x906;&#x923;&#x93f; &#x92a;&#x932;&#x928;&#x940; &#x91f;&#x947;&#x915;&#x921;&#x94d;&#x92f;&#x93e;&#x935;&#x930;&#x942;&#x928; &#x935;&#x93e;&#x930;&#x94d;&#x92f;&#x93e;&#x92c;&#x930;&#x94b;&#x92c;&#x930; &#x906;&#x923;&#x93f; &#x924;&#x94d;&#x92f;&#x93e; &#x935;&#x947;&#x933;&#x940; &#x92a;&#x921;&#x923;&#x93e;&#x930;&#x94d;&#x92f;&#x93e; &#x92a;&#x93e;&#x935;&#x938;&#x92e;&#x941;&#x933;&#x947; &#x939;&#x947; &#x930;&#x94b;&#x917; &#x92b;&#x948;&#x932;&#x93e;&#x935;&#x924;&#x93e;&#x924;.&#xa;&#x92a;&#x93e;&#x928;&#x93e;&#x935;&#x930;&#x91a;&#x93e; &#x928;&#x93e;&#x930;&#x902;&#x917;&#x940; &#x924;&#x93e;&#x902;&#x92c;&#x947;&#x930;&#x93e; &#x939;&#x93e; &#x935;&#x915;&#x94d;&#x938;&#x940;&#x928;&#x93f;&#x92f;&#x93e; &#x930;&#x940;&#x915;&#x93e;&#x902;&#x921;&#x940;&#x91f; &#x928;&#x93e;&#x935;&#x93e;&#x91a;&#x94d;&#x92f;&#x93e; &#x92c;&#x941;&#x930;&#x936;&#x940;&#x92e;&#x941;&#x933;&#x947; &#x939;&#x94b;&#x924;&#x94b;.&#x917;&#x935;&#x94d;&#x939;&#x93e;&#x91a;&#x94d;&#x92f;&#x93e; &#x92a;&#x93e;&#x928;&#x93e;&#x935;&#x930; &#x928;&#x93e;&#x930;&#x902;&#x917;&#x940; &#x920;&#x93f;&#x92a;&#x915;&#x947; &#xa;&#x905;&#x938;&#x924;&#x93e;&#x924; &#x906;&#x923;&#x93f; &#x928;&#x902;&#x924;&#x930; &#x92b;&#x94b;&#x95c; &#x926;&#x93f;&#x938;&#x924;&#x93e;&#x924;.&#x967;&#x96e; &#x924;&#x947; &#x968;&#x966; &#x91f;&#x915;&#x94d;&#x915;&#x947; &#x924;&#x93e;&#x92a;&#x92e;&#x93e;&#x928; &#x906;&#x923;&#x93f; &#x96e; &#x91f;&#x915;&#x94d;&#x915;&#x947; &#x906;&#x930;&#x94d;&#x926;&#x94d;&#x930;&#x924;&#x93e; &#x92f;&#x93e; &#x930;&#x94b;&#x917;&#x93e;&#x938; &#x92a;&#x94b;&#x937;&#x915; &#x905;&#x938;&#x924;&#x947;.&#xa;&#x92f;&#x93e; &#x926;&#x94b;&#x928;&#x94d;&#x939;&#x940; &#x930;&#x94b;&#x917;&#x93e;&#x902;&#x928;&#x93e; &#x92a;&#x94d;&#x930;&#x924;&#x93f;&#x92c;&#x902;&#x927;&#x93e;&#x924;&#x94d;&#x92e;&#x915; &#x909;&#x92a;&#x93e;&#x92f; &#x92e;&#x94d;&#x939;&#x923;&#x942;&#x928; &#x930;&#x94b;&#x917;&#x92a;&#x94d;&#x930;&#x924;&#x93f;&#x915;&#x93e;&#x930;&#x915; &#x91c;&#x93e;&#x924;&#x940; &#x92a;&#x947;&#x930;&#x93e;&#x935;&#x94d;&#x92f;&#x93e;&#x924;.&#xa;&#x924;&#x94d;&#x92f;&#x93e;&#x91a;&#x92a;&#x94d;&#x930;&#x92e;&#x93e;&#x923;&#x947; &#x917;&#x935;&#x94d;&#x939;&#x93e;&#x91a;&#x940; &#x92a;&#x947;&#x930;&#x923;&#x940; &#x939;&#x902;&#x917;&#x93e;&#x92e;&#x93e;&#x92a;&#x941;&#x930;&#x94d;&#x935;&#x940; &#x915;&#x93f;&#x902;&#x935;&#x93e; &#x909;&#x936;&#x93f;&#x930;&#x93e; &#x915;&#x930;&#x942; &#x928;&#x92f;&#x947;.&#xa;&#x91c;&#x93e;&#x926;&#x93e; &#x92a;&#x93e;&#x923;&#x940; &#x926;&#x947;&#x90a; &#x928;&#x92f;&#x947;.&#xa;&#x922;&#x917;&#x93e;&#x933; &#x939;&#x935;&#x93e;&#x92e;&#x93e;&#x928;, &#x92a;&#x93e;&#x909;&#x938; &#x905;&#x917;&#x930; &#x915;&#x921;&#x93e;&#x915;&#x94d;&#x92f;&#x93e;&#x91a;&#x940; &#x920;&#x902;&#x921;&#x940; &#x92a;&#x921;&#x932;&#x940;, &#x924;&#x930; &#x92a;&#x94d;&#x930;&#x924;&#x93f;&#x92c;&#x902;&#x927;&#x93e;&#x924;&#x94d;&#x92e;&#x915; &#x909;&#x92a;&#x93e;&#x92f; &#x92e;&#x94d;&#x939;&#x923;&#x942;&#x928; &#x969; &#x917;&#x94d;&#x930;&#x93e;&#x92e; &#x91d;&#x93e;&#x92f;&#x928;&#x947;&#x92c; &#xa;&#x906;&#x923;&#x93f; &#x967; &#x932;&#x93f;&#x91f;&#x930; &#x92a;&#x93e;&#x923;&#x940; &#x92f;&#x93e;&#x902;&#x91a;&#x940; &#x92b;&#x935;&#x93e;&#x930;&#x923;&#x940; &#x915;&#x930;&#x93e;&#x935;&#x940;.&#xa;&#x92a;&#x94d;&#x930;&#x93e;&#x926;&#x941;&#x930;&#x94d;&#x92d;&#x93e;&#x935; &#x91d;&#x93e;&#x932;&#x94d;&#x92f;&#x93e;&#x928;&#x902;&#x924;&#x930; &#x969; &#x917;&#x94d;&#x930;&#x93e;&#x92e; &#x91d;&#x93e;&#x92f;&#x928;&#x947;&#x92c; &#x915;&#x93f;&#x902;&#x935;&#x93e; &#x92e;&#x928;&#x94d;&#x915;&#x94b;&#x91d;&#x947;&#x92c; &#x906;&#x923;&#x93f; &#x967; &#x932;&#x93f;&#x91f;&#x930; &#x92a;&#x93e;&#x923;&#x940; &#x92f;&#x93e;&#x902;&#x91a;&#x94d;&#x92f;&#x93e; &#x92b;&#x935;&#x93e;&#x930;&#x923;&#x94d;&#x92f;&#x93e; &#x906;&#x932;&#x91f;&#x942;&#x928; &#x92a;&#x93e;&#x932;&#x91f;&#x942;&#x928; &#x915;&#x930;&#x93e;&#x935;&#x94d;&#x92f;&#x93e;.&#xa;&#x915;&#x93e;&#x91c;&#x933;&#x940; &#x915;&#x93f;&#x902;&#x935;&#x93e; &#x915;&#x93e;&#x923;&#x940; &#x939;&#x93e; &#x930;&#x94b;&#x917; &#x92f;&#x941;&#x938;&#x94d;&#x91f;&#x93f;&#x932;&#x917;&#x94b;, &#x91f;&#x94d;&#x930;&#x93f;&#x91f;&#x938;&#x940; &#x92f;&#x93e; &#x92c;&#x941;&#x930;&#x93e;&#x936;&#x940;&#x92e;&#x941;&#x933;&#x947; &#x939;&#x94b;&#x924;&#x94b;.&#x939;&#x940; &#x92c;&#x941;&#x930;&#x936;&#x940; &#x92b;&#x941;&#x932;&#x93e;&#x935;&#x930; &#x935;&#x93e;&#x922;&#x924;&#x947;.&#x926;&#x93e;&#x923;&#x94d;&#x92f;&#x93e;&#x910;&#x935;&#x91c;&#x940; &#x915;&#x93e;&#x933;&#x940; &#x92d;&#x941;&#x915;&#x91f;&#x940; &#xa;&#x924;&#x92f;&#x93e;&#x930; &#x939;&#x94b;&#x924;&#x947;.&#x939;&#x940; &#x915;&#x93e;&#x933;&#x940; &#x92d;&#x941;&#x915;&#x91f;&#x940; &#x92e;&#x94d;&#x939;&#x923;&#x91c;&#x947;&#x91a; &#x915;&#x93e;&#x923;&#x940;.&#x920;&#x902;&#x921; &#x906;&#x923;&#x93f; &#x906;&#x930;&#x94d;&#x926;&#x94d;&#x930; &#x939;&#x935;&#x93e;&#x92e;&#x93e;&#x928;&#x93e;&#x924; &#x935;&#x93e;&#x922; &#x939;&#x94b;&#x924;&#x947;.&#xa;&#xa;&#x930;&#x94b;&#x917;&#x92e;&#x941;&#x915;&#x94d;&#x924; &#x92c;&#x93f;&#x92f;&#x93e;&#x923;&#x947; &#x935;&#x93e;&#x92a;&#x930;&#x93e;&#x935;&#x947;.&#xa;&#xa;&#x909;&#x92d;&#x94d;&#x92f;&#x93e; &#x92a;&#x93f;&#x915;&#x93e;&#x924;&#x932;&#x94d;&#x92f;&#x93e; &#x930;&#x94b;&#x917;&#x91f; &#x913;&#x902;&#x92c;&#x94d;&#x92f;&#x93e; &#x915;&#x93e;&#x933;&#x91c;&#x940;&#x92a;&#x942;&#x930;&#x94d;&#x935;&#x915; &#x915;&#x93e;&#x922;&#x942;&#x928; &#x928;&#x937;&#x94d;&#x91f; &#x915;&#x930;&#x93e;&#x935;&#x94d;&#x92f;&#x93e;&#x924;.&#xa;&#x969; &#x917;&#x94d;&#x930;&#x93e;&#x92e; &#x915;&#x93e;&#x930;&#x94d;&#x92c;&#x947;&#x928;&#x921;&#x91d;&#x93f;&#x92e; &#x905;&#x917;&#x930; &#x925;&#x93e;&#x92f;&#x930;&#x92e; &#x967; &#x915;&#x93f;&#x932;&#x94b; &#x92c;&#x93f;&#x92f;&#x93e;&#x923;&#x94d;&#x92f;&#x93e;&#x938; &#x91a;&#x94b;&#x933;&#x93e;&#x935;&#x947;.&#x92e;&#x94d;&#x939;&#x923;&#x91c;&#x947; &#x92f;&#x93e; &#x930;&#x94b;&#x917;&#x93e;&#x91a;&#x947; &#x928;&#x93f;&#x92f;&#x902;&#x924;&#x94d;&#x930;&#x923; &#x939;&#x94b;&#x90a; &#x936;&#x915;&#x924;&#x947;.&#xa;   &#x915;&#x930;&#x92a;&#x93e; &#x92f;&#x93e; &#x917;&#x939;&#x942; &#x92a;&#x93f;&#x915;&#x93e;&#x935;&#x930;&#x91a;&#x94d;&#x92f;&#x93e; &#x930;&#x94b;&#x917;&#x93e;&#x91a;&#x940; &#x932;&#x93e;&#x917;&#x923; &#x905;&#x932;&#x94d;&#x91f;&#x930;&#x928;&#x947;&#x930;&#x93f;&#x92f;&#x93e; &#x91f;&#x94d;&#x930;&#x93f;&#x91f;&#x940;&#x938;&#x93f;&#x928;&#x93e; &#x928;&#x93e;&#x935;&#x93e;&#x91a;&#x94d;&#x92f;&#x93e; &#x92c;&#x941;&#x930;&#x936;&#x940;&#x92e;&#x941;&#x933;&#x947; &#x939;&#x94b;&#x924;&#x94b;.&#xa;&#xa;&#x915;&#x94b;&#x930;&#x921;&#x935;&#x93e;&#x939;&#x942; &#x92a;&#x947;&#x915;&#x94d;&#x937;&#x93e; &#x92c;&#x93e;&#x917;&#x93e;&#x92f;&#x924;&#x940; &#x917;&#x935;&#x94d;&#x939;&#x93e;&#x935;&#x930; &#x91c;&#x93e;&#x938;&#x94d;&#x924; &#x92a;&#x94d;&#x930;&#x92e;&#x93e;&#x923;&#x93e;&#x924; &#x905;&#x932;&#x94d;&#x91f;&#x930;&#x928;&#x947;&#x930;&#x93f;&#x92f;&#x93e;&#x915;&#x930;&#x92a;&#x93e; &#x92f;&#x947;&#x924;&#x94b;. &#x930;&#x94b;&#x917;&#x93e;&#x91a;&#x947; &#x92a;&#x94d;&#x930;&#x92e;&#x93e;&#x923; &#x91c;&#x93e;&#x938;&#x94d;&#x924; &#x935;&#x93e;&#x922;&#x932;&#x94d;&#x92f;&#x93e;&#x938; &#x915;&#x930;&#x92a;&#x94d;&#x92f;&#x93e;&#x91a;&#x947; &#xa;&#x920;&#x93f;&#x92a;&#x915;&#x947; &#x90f;&#x915;&#x924;&#x94d;&#x930; &#x92e;&#x93f;&#x938;&#x933;&#x924;&#x93e;&#x924; &#x906;&#x923;&#x93f; &#x938;&#x902;&#x92a;&#x942;&#x930;&#x94d;&#x923; &#x92a;&#x93e;&#x928; &#x915;&#x930;&#x92a;&#x924;&#x947;. &#x967;&#x96f; &#x924;&#x947; &#x968;&#x966; &#x938;&#x947;&#x932;&#x94d;&#x938;&#x93f;&#x92f;&#x938; &#x924;&#x93e;&#x92a;&#x92e;&#x93e;&#x928; &#x938;&#x924;&#x924; &#x926;&#x92e;&#x91f; &#x939;&#x935;&#x93e;&#x92e;&#x93e;&#x928;&#x93e;&#x924; &#x92f;&#x93e; &#xa;&#x930;&#x94b;&#x917;&#x93e;&#x91a;&#x93e; &#x92a;&#x94d;&#x930;&#x938;&#x93e;&#x930; &#x939;&#x94b;&#x924;&#x94b;.&#x969; &#x917;&#x94d;&#x930;&#x93e;&#x92e; &#x925;&#x93e;&#x92f;&#x930;&#x92e;&#x91a;&#x940; &#x92c;&#x93f;&#x91c;&#x92a;&#x94d;&#x930;&#x915;&#x94d;&#x930;&#x93f;&#x92f;&#x93e; &#x915;&#x930;&#x93e;&#x935;&#x940; &#x906;&#x923;&#x93f; &#x909;&#x92d;&#x94d;&#x92f;&#x93e; &#x92a;&#x93f;&#x915;&#x93e;&#x935;&#x930; &#x968;&#x96b; &#x917;&#x94d;&#x930;&#x93e;&#x92e; &#x91d;&#x93e;&#x92f;&#x928;&#x947;&#x92c; &#x905;&#x917;&#x930; &#xa;&#x92e;&#x928;&#x94d;&#x915;&#x94b;&#x91d;&#x947;&#x92c; &#x967; &#x932;&#x93f;&#x91f;&#x930; &#x92a;&#x93e;&#x923;&#x94d;&#x92f;&#x93e;&#x924;&#x942;&#x928; &#x92b;&#x935;&#x93e;&#x930;&#x93e;&#x935;&#x947;.&#xa;&#xa;&#x917;&#x935;&#x94d;&#x939;&#x93e;&#x935;&#x930; &#x92b;&#x94d;&#x92f;&#x941;&#x91c;&#x93e;&#x930;&#x93f;&#x92e; &#x92f;&#x93e; &#x92c;&#x941;&#x930;&#x936;&#x940;&#x92e;&#x941;&#x933;&#x947; &#x92e;&#x941;&#x933;&#x915;&#x941;&#x91c; &#x924;&#x930; &#x930;&#x93e;&#x92f;&#x91d;&#x94b;&#x915;&#x94d;&#x91f;&#x94b;&#x928;&#x93f;&#x92f;&#x93e; &#x92f;&#x93e; &#x92c;&#x941;&#x930;&#x936;&#x940;&#x92e;&#x941;&#x933;&#x947; &#x916;&#x94b;&#x921;&#x915;&#x941;&#x91c; &#x92f;&#x93e; &#x930;&#x94b;&#x917;&#x93e;&#x91a;&#x93e; &#x92a;&#x94d;&#x930;&#x93e;&#x926;&#x941;&#x930;&#x94d;&#x92d;&#x93e;&#x935; &#x939;&#x94b;&#x924;&#x94b;.&#xa;&#x92f;&#x93e; &#x930;&#x94b;&#x917;&#x93e;&#x902;&#x91a;&#x93e; &#x90f;&#x915;&#x924;&#x94d;&#x930;&#x93f;&#x924; &#x92a;&#x930;&#x93f;&#x923;&#x93e;&#x92e; &#x92e;&#x94d;&#x939;&#x923;&#x91c;&#x947; &#x930;&#x94b;&#x92a;&#x947; &#x92a;&#x93f;&#x935;&#x933;&#x940; &#x92a;&#x921;&#x942;&#x928; &#x938;&#x941;&#x915;&#x93e;&#x92f;&#x93e;&#x932;&#x93e; &#x932;&#x93e;&#x917;&#x924;&#x93e;&#x924; &#x906;&#x923;&#x93f; &#x936;&#x947;&#x935;&#x91f;&#x940; &#x92e;&#x930;&#x924;&#x93e;&#x924;. &#x916;&#x94b;&#x921;&#x93e;&#x91a;&#x93e; &#xa;&#x91c;&#x92e;&#x940;&#x928;&#x940;&#x932;&#x917;&#x924;&#x93e;&#x91a;&#x93e; &#x92d;&#x93e;&#x917; &#x906;&#x923;&#x93f; &#x92e;&#x941;&#x933;&#x947; &#x915;&#x941;&#x91c;&#x924;&#x93e;&#x924; &#x906;&#x923;&#x93f; &#x91d;&#x93e;&#x921;&#x947; &#x915;&#x94b;&#x932;&#x92e;&#x921;&#x942;&#x928; &#x92a;&#x921;&#x924;&#x93e;&#x924;.&#x92f;&#x93e;&#x91a;&#x94d;&#x92f;&#x93e;&#x935;&#x930; &#x909;&#x92a;&#x93e;&#x92f; &#x92e;&#x94d;&#x939;&#x923;&#x91c;&#x947; &#x905;&#x936;&#x940; &#x91d;&#x93e;&#x921;&#x947; &#xa;&#x909;&#x92a;&#x91f;&#x942;&#x928; &#x91f;&#x93e;&#x915;&#x93e;&#x935;&#x93f;&#x924; &#x906;&#x923;&#x93f; &#x938;&#x941;&#x930;&#x935;&#x93e;&#x924;&#x940;&#x932;&#x93e; &#x925;&#x93e;&#x92f;&#x930;&#x92e;&#x91a;&#x940; &#x92c;&#x940;&#x91c;&#x92a;&#x94d;&#x930;&#x915;&#x94d;&#x930;&#x93f;&#x92f;&#x93e; &#x915;&#x930;&#x93e;&#x935;&#x940;.&#xa;&#xa;&#x915;&#x930;&#x94d;&#x928;&#x93e;&#x932; &#x92c;&#x94d;&#x930;&#x902;&#x91f; &#x939;&#x93e; &#x930;&#x94b;&#x917; &#x91f;&#x93f;&#x930;&#x94d;&#x932;&#x94b;&#x936; &#x907;&#x902;&#x921;&#x93f;&#x915;&#x93e; &#x928;&#x93e;&#x935;&#x93e;&#x91a;&#x94d;&#x92f;&#x93e; &#x92c;&#x941;&#x930;&#x93e;&#x936;&#x93f;&#x92e;&#x941;&#x932;&#x947; &#x939;&#x94b;&#x924;&#x94b;.&#x905;&#x924;&#x94d;&#x92f;&#x902;&#x924; &#x92d;&#x92f;&#x93e;&#x928;&#x915; &#x930;&#x94b;&#x917; &#x906;&#x939;&#x947;.&#x917;&#x935;&#x94d;&#x939;&#x93e;&#x91a;&#x94d;&#x92f;&#x93e; &#x913;&#x902;&#x92c;&#x94d;&#x92f;&#x93e; &#xa;&#x906;&#x923;&#x93f; &#x926;&#x93e;&#x928;&#x947; &#x915;&#x93e;&#x933;&#x947; &#x92a;&#x921;&#x924;&#x93e;&#x924;.&#xa;&#xa;&#x924;&#x94d;&#x92f;&#x93e;&#x91a;&#x94d;&#x92f;&#x93e; &#x92e;&#x93e;&#x938;&#x933;&#x940;&#x91a;&#x94d;&#x92f;&#x93e; &#x935;&#x93e;&#x938;&#x93e;&#x938;&#x93e;&#x930;&#x916;&#x93e; &#x905;&#x924;&#x93f;&#x936;&#x92f; &#x918;&#x93e;&#x923;&#x930;&#x921;&#x93e; &#x935;&#x93e;&#x938; &#x92f;&#x947;&#x924;&#x94b;. &#x924;&#x94d;&#x92f;&#x93e;&#x92e;&#x941;&#x933;&#x947; &#x905;&#x938;&#x93e; &#x917;&#x939;&#x942; &#x916;&#x93e;&#x923;&#x94d;&#x92f;&#x93e;&#x938; &#x92f;&#x94b;&#x917;&#x94d;&#x92f; &#x930;&#x93e;&#x939;&#x924;&#x91a; &#x928;&#x93e;&#x939;&#x940;. &#xa;&#x909;&#x924;&#x94d;&#x924;&#x930; &#x92d;&#x93e;&#x930;&#x924;&#x93e;&#x924; &#x92f;&#x93e;&#x91a;&#x947; &#x92a;&#x94d;&#x930;&#x92e;&#x93e;&#x923; &#x91c;&#x93e;&#x938;&#x94d;&#x924; &#x906;&#x939;&#x947;. &#x906;&#x92a;&#x932;&#x94d;&#x92f;&#x93e;&#x915;&#x921;&#x947; &#x905;&#x91c;&#x941;&#x928; &#x928;&#x93e;&#x939;&#x940;.&#xa;&#xa;&#x939;&#x93e; &#x930;&#x94b;&#x917; &#x92c;&#x93f;&#x92f;&#x93e;&#x923;&#x94d;&#x92f;&#x93e;&#x926;&#x94d;&#x935;&#x93e;&#x930;&#x947; &#x92a;&#x938;&#x930;&#x924;&#x94b;.&#xa;&#x92e;&#x94d;&#x939;&#x923;&#x942;&#x928; &#x925;&#x93e;&#x92f;&#x930;&#x92e;&#x91a;&#x940; &#x92c;&#x940;&#x91c;&#x92a;&#x94d;&#x930;&#x915;&#x94d;&#x930;&#x93f;&#x92f;&#x93e; &#x915;&#x930;&#x93e;&#x935;&#x940;.&#xa;&#x930;&#x94b;&#x917;&#x92e;&#x941;&#x915;&#x94d;&#x924; &#x92a;&#x94d;&#x930;&#x93e;&#x92e;&#x93e;&#x923;&#x93f;&#x924; &#x92c;&#x93f;&#x92f;&#x93e;&#x923;&#x947; &#x935;&#x93e;&#x92a;&#x930;&#x93e;&#x935;&#x947;.&#xa;&#x930;&#x94b;&#x917;&#x91f; &#x905;&#x935;&#x936;&#x947;&#x937; &#x917;&#x94b;&#x933;&#x93e; &#x915;&#x930;&#x941;&#x928; &#x91c;&#x93e;&#x933;&#x942;&#x928; &#x91f;&#x93e;&#x915;&#x93e;&#x935;&#x947;.&#xa;&#x91c;&#x92e;&#x93f;&#x928;&#x93f;&#x924;&#x93e;&#x932;&#x94d;&#x92f;&#x93e; &#x92c;&#x941;&#x930;&#x936;&#x940;&#x91a;&#x94d;&#x92f;&#x93e; &#x928;&#x93e;&#x92f;&#x93e;&#x928;&#x93e;&#x91f;&#x93e;&#x938;&#x93e;&#x920;&#x940; &#x916;&#x94b;&#x932; &#x928;&#x93e;&#x902;&#x917;&#x930;&#x91f;&#x915;&#x930;&#x93e;&#x935;&#x940;. &#x905;&#x936;&#x93e; &#x92a;&#x926;&#x94d;&#x927;&#x924;&#x940;&#x928;&#x947; &#x918;&#x93e;&#x923; &#x935;&#x93e;&#x938; &#x92f;&#x947;&#x923;&#x93e;&#x930;&#x94d;&#x92f;&#x93e; (&#x915;&#x930;&#x94d;&#x928;&#x93e;&#x932; &#x92c;&#x94d;&#x930;&#x902;&#x91f;)&#xa;&#x92f;&#x93e; &#x930;&#x94b;&#x917;&#x93e;&#x91a;&#x94d;&#x92f;&#x93e; &#x928;&#x93f;&#x92f;&#x902;&#x924;&#x94d;&#x930;&#x928;&#x93e;&#x91a;&#x947; &#x909;&#x92a;&#x93e;&#x92f; &#x92f;&#x94b;&#x91c;&#x935;&#x947;&#x924;.&#xa;&#x928;&#x93f;&#x930;&#x94b;&#x917;&#x940; &#x917;&#x939;&#x942; &#x909;&#x924;&#x94d;&#x92a;&#x93e;&#x926;&#x928;&#x93e;&#x938;&#x93e;&#x920;&#x940; &#x928;&#x941;&#x915;&#x938;&#x93e;&#x928;&#x915;&#x93e;&#x930;&#x915; &#x905;&#x936;&#x93e; &#x92f;&#x93e; &#x930;&#x94b;&#x917;&#x93e;&#x91a;&#x947; &#x928;&#x93f;&#x930;&#x94d;&#x92e;&#x942;&#x932;&#x928; &#x915;&#x930;&#x93e;&#x935;&#x947; &#x906;&#x923;&#x93f; &#x905;&#x92a;&#x947;&#x915;&#x94d;&#x937;&#x93f;&#x924; &#x909;&#x924;&#x94d;&#x92a;&#x93e;&#x926;&#x928; &#x92e;&#x93f;&#x933;&#x935;&#x93e;&#x935;&#x947;."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
