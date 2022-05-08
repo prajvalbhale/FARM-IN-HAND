@@ -87,6 +87,7 @@ public class INDAPURAPMC_UPDATE extends javax.swing.JFrame {
         VIEW_DB = new javax.swing.JButton();
         DELETE = new javax.swing.JButton();
         UPDATE = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
         MIN = new javax.swing.JLabel();
         CLOS = new javax.swing.JLabel();
         BACK = new javax.swing.JLabel();
@@ -380,6 +381,10 @@ public class INDAPURAPMC_UPDATE extends javax.swing.JFrame {
             }
         });
 
+        jLabel7.setBackground(new java.awt.Color(204, 255, 255));
+        jLabel7.setFont(new java.awt.Font("Cambria Math", 1, 14)); // NOI18N
+        jLabel7.setText("WELCOME TO INDAPUR APMC UPDATE SECTION.");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -427,6 +432,10 @@ public class INDAPURAPMC_UPDATE extends javax.swing.JFrame {
                                 .addComponent(INDAPURYEAR, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jScrollPane1))))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(175, 175, 175)
+                .addComponent(jLabel7)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -458,7 +467,9 @@ public class INDAPURAPMC_UPDATE extends javax.swing.JFrame {
                             .addComponent(jLabel6)
                             .addComponent(INDAPURYEAR, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 56, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, 27, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(INSERT_DB, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(DELETE, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -903,7 +914,7 @@ if (verifydata())
         String phoneno =  INDAPURDAY.getText();
        int length = phoneno.length();
        char c = evt.getKeyChar();
-       if (evt.getKeyChar() >= '0' && evt.getKeyChar()<='2')
+       if (evt.getKeyChar() >= '0' && evt.getKeyChar()<='9')
        {
            if (length<2)
            {
@@ -1060,6 +1071,7 @@ if (verifydata())
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables

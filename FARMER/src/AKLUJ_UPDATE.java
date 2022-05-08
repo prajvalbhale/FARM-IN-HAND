@@ -101,6 +101,7 @@ public class AKLUJ_UPDATE extends javax.swing.JFrame {
         DELETE = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         AK_UPDATE = new javax.swing.JTable();
+        jLabel7 = new javax.swing.JLabel();
         BACK = new javax.swing.JLabel();
         CLOS = new javax.swing.JLabel();
         MIN = new javax.swing.JLabel();
@@ -384,6 +385,10 @@ public class AKLUJ_UPDATE extends javax.swing.JFrame {
             AK_UPDATE.getColumnModel().getColumn(5).setResizable(false);
         }
 
+        jLabel7.setBackground(new java.awt.Color(204, 255, 255));
+        jLabel7.setFont(new java.awt.Font("Cambria Math", 1, 14)); // NOI18N
+        jLabel7.setText("WELCOME TO INDAPUR APMC UPDATE SECTION.");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -434,6 +439,10 @@ public class AKLUJ_UPDATE extends javax.swing.JFrame {
                                 .addComponent(YEAR1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jScrollPane1))))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(174, 174, 174)
+                .addComponent(jLabel7)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -465,7 +474,9 @@ public class AKLUJ_UPDATE extends javax.swing.JFrame {
                             .addComponent(jLabel6)
                             .addComponent(YEAR1, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, 27, Short.MAX_VALUE)
+                .addGap(12, 12, 12)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(INSERT_DBBTN, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(UPDATE, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1078,6 +1089,7 @@ public class AKLUJ_UPDATE extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
